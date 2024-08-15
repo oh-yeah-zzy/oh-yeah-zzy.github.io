@@ -1,13 +1,45 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "朱泽宇个人主页"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+笔者目前仍在USTC进修升级中，希望能在这里写一些自己日常的内容，或许以后能给师弟师妹当实验室的introduction用，或许这个网页在后续找工作的时候能帮得上忙，例如在写简历的时候不会如鲠在喉。
+
+## 笔者做过的研究方向
+
+笔者所在实验室是一个交叉方向的实验室，业务范围以相机研发为中心，向两边延伸。
+
+由于属于交叉学科，因此实验室所涉及到的项目与活计十分宽泛，在此处将笔者所接触过/正在接触的项目罗列如下：
+
+### 相机研发
+
+主要技术栈：C#，C++，python，html/javascript（前端主要用vue所以会涉及到这些内容）
+
+实验室的主要业务是做各种各样的相机，这些相机各有各的特性，笔者进入实验室后最开始的研究方向便是介入到了相机业务中，主做相机SDK，使用界面以及测试平台的开发。
+
+#### 技术平台介绍
+
+##### 相机SDK
+
+##### 相机使用界面
+
+##### 相机测试平台
+
+#### 相机项目介绍
+
+##### 相机测试平台项目
+
+##### 用于空间碎片观测的科学级相机研发
+
+##### 用于定位测量的CMOS相机研发
+
+##### 大靶面超高速率的sCMOS相机研发
+
+##### 顺手一块写了目前还不知道用于啥的sCMOS相机研发
 
 A data-driven personal website
 ======
@@ -18,11 +50,11 @@ Many of the features of dynamic content management systems (like Wordpress) can 
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+3. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+4. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+5. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+6. Check status by going to the repository settings, in the "GitHub pages" section
 
 Site-wide configuration
 ------
