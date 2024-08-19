@@ -7,7 +7,7 @@ author_profile: true
 
 ## 观测控制系统/台站控制系统研究方向 {#ocs_research_direction}
 
-实验室的观测控制系统/台站控制系统（observation control system/ observatory control system，均简称OCS）研究属于祖传研究方向，是实验室的两大主要业务之一，导师的毕业论文做的就是此方向的内容，师兄们的毕业论文的研究内容也大多与此相关。
+实验室的观测控制系统/台站控制系统（observation control system/ observatory control system，均简称OCS）研究属于祖传手艺，是实验室的两大主要业务之一，导师的毕业论文做的就是此方向的内容，师兄们的毕业论文的研究内容也大多与此相关。
 
 在最开始的阶段，实验室对于OCS的研究处于观测控制系统阶段，即仅处理与观测有关的内容，其他的类似于观测策略、故障诊断、环境监测系统等均与OCS无关，也不会集成到OCS中，OCS的研发重点着眼于对于观测流程的组织、与设备的通信、面向用户的可视化以及交互操作等
 
