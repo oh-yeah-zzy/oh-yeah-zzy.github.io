@@ -17,7 +17,12 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 但是对于刚进入实验室的同学来说，该望远镜不失为一个非常好的练手选项，望远镜如下图所示：
 
-![搭建完毕的望远镜以及为他遮风避雨的小房子](./images/tel_upstairs_mor.jpg)
+<div style="text-align: center;">
+
+![搭建完毕的望远镜以及为他遮风避雨的小房子](./images/tel_upstairs_mor.jpg){width=300px}
+搭建完毕的望远镜以及为他遮风避雨的小房子
+
+</div>
 
 ### 用于空间碎片观测的观测控制系统
 
