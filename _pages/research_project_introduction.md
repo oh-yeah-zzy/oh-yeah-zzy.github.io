@@ -25,10 +25,8 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 <div style="text-align: center;">
 
-<img src="tel_upstairs_mor.png" alt="搭建完毕的望远镜以及为他遮风避雨的小房子" width="300px">
-
-<!-- ![搭建完毕的望远镜以及为他遮风避雨的小房子](./images/tel_upstairs_mor.jpg){width=300px} -->
-<!-- **搭建完毕的望远镜以及为他遮风避雨的小房子** -->
+![搭建完毕的望远镜以及为他遮风避雨的小房子](./images/tel_upstairs_mor.jpg){width=300px}
+**搭建完毕的望远镜以及为他遮风避雨的小房子**
 
 </div>
 
@@ -36,8 +34,8 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 <div style="text-align: center;">
 
-<!-- ![推出来观测的望远镜图1](images/tel_upstairs1.jpg){width=300px} -->
-<!-- 推出来观测的望远镜图1 -->
+![推出来观测的望远镜图1](images/tel_upstairs1.jpg){width=300px}
+推出来观测的望远镜图1
 
 </div>
 
@@ -45,8 +43,8 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 <div style="text-align: center;">
 
-<!-- ![推出来观测的望远镜图2](./images/tel_upstairs2.jpg){width=300px} -->
-<!-- 推出来观测的望远镜图2 -->
+![推出来观测的望远镜图2](./images/tel_upstairs2.jpg){width=300px}
+推出来观测的望远镜图2
 
 </div>
 
@@ -56,8 +54,8 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 <div style="text-align: center;">
 
-<!-- ![安装好的相机](./images/tel_upstairs2.jpg){width=300px} -->
-<!-- 安装好的相机 -->
+![安装好的相机](./images/tel_upstairs2.jpg){width=300px}
+安装好的相机
 
 </div>
 
