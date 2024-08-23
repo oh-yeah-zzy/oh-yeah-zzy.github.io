@@ -23,11 +23,11 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 搭建望远镜如下图所示：
 
-<!-- <div style="text-align: center;"> -->
+<div style="text-align: center;">
 
-![搭建完毕的望远镜以及为他遮风避雨的小房子](/images/tel_upstairs_mor.jpg){width=300px}
+![搭建完毕的望远镜以及为他遮风避雨的小房子](/images/tel_upstairs_mor.jpg
 
-<!-- </div> -->
+</div>
 
 观测时我们需要将望远镜从小房子中推出来，推出来后的情况如下图所示：
 
