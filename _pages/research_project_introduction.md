@@ -41,7 +41,6 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 </div>
 
-</br>
 
 <div style="text-align: center;">
 
@@ -50,8 +49,6 @@ OCS的全称为observation control system/ observatory control system，两个�
 推出来观测的望远镜图2
 
 </div>
-
-</br>
 
 我们一般会使用实验室空置的相机装在望远镜上来进行观测，相机安装后图像如下所示：
 
