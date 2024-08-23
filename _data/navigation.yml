@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "研究方向介绍"
-    url: /research_content/
+    url: research_content/
 
   - title: "研究项目介绍"
-    url: /research_project/    
+    url: research_project/    
 
   - title: "Teaching"
     url: /teaching/    
