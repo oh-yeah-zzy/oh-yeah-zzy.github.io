@@ -36,8 +36,8 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 <div style="text-align: center;">
 
-![推出来观测的望远镜图1](images/tel_upstairs1.jpg){width=300px}
-推出来观测的望远镜图1
+<!-- ![推出来观测的望远镜图1](images/tel_upstairs1.jpg){width=300px} -->
+<!-- 推出来观测的望远镜图1 -->
 
 </div>
 
@@ -45,8 +45,8 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 <div style="text-align: center;">
 
-![推出来观测的望远镜图2](./images/tel_upstairs2.jpg){width=300px}
-推出来观测的望远镜图2
+<!-- ![推出来观测的望远镜图2](./images/tel_upstairs2.jpg){width=300px} -->
+<!-- 推出来观测的望远镜图2 -->
 
 </div>
 
