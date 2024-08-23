@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "研究方向介绍"
-    url: /publications/
+    url: /research_content/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "研究项目介绍"
+    url: /research_project/    
 
   - title: "Teaching"
     url: /teaching/    
