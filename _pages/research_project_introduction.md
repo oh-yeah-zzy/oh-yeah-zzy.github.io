@@ -60,6 +60,18 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 </div>
 
+该观测控制系统前后端整体采用了实验室传承下来的技术栈，前端采用了**vue2框架**，后端采用了**tornado+fastapi框架**，底层的分布式框架所使用的是**RACS2框架**，该控制系统主要由g哥搭建，是g哥的开山之作，g哥从此跨入观测控制系统领域，笔者与实验室其他成员主要起到协助g哥，为g哥提供技术指导/bug修复/望远镜扛楼机的作用。
+
+在后续与g哥一起使用望远镜/修各种bug的过程中，我们有幸看到了可能/大概/或许是被台风摧毁的小棚子：
+
+<div style="text-align: center;">
+
+<img src="/images/tel_upstairs_break.jpg" alt="坏掉的亚克力小房子" width="50%">
+
+<p>坏掉的亚克力小房子</p>
+
+</div>
+
 ### 用于空间碎片观测的观测控制系统
 
 ### WFST望远镜观测控制系统
