@@ -93,6 +93,8 @@ WFST OCS的主要目标是：
 > The observatory control system (OCS) of WFST is structured based on the RACS2 framework, which is a low-level framework developed by our laboratory for the development of distributed control systems. It features decentralization and automatic component discovery. In this framework, components exist as nodes on a LAN message bus and communicate through the message bus. Additionally, the framework provides Python bindings, enabling users to rapidly develop components using Python.
 > During the observation period, the control of equipment requires accuracy, real-time, efficiency and safety. Therefore, we design and implement the OCS (observatory control system) of WFST which performs multi-layer abstraction on each hardware device and puts more attention on the operation of the observation process and the scheduling of observation tasks.
 
+以上目标引自部分已发表的论文。
+
 在该项目中，实验室的OCS完成了从观测控制系统阶段到台站控制系统阶段的跃迁，目前该项目正在台站控制系统的路上逐步地向前推进。不可否认的是，在推进的过程中，我们遇到了非常多的困难，在这里将部分困难罗列如下，或许我们能在不久的将来解决掉他们：
 
 1. 底层框架的不足，在过去相当长的一段时间中，实验室所使用的分布式开发框架为RACS2框架，但是该框架在设计之初未能考虑到台站控制系统的需求，导致如果此时如果需要将所需特性添加到系统中会面临两方面的问题，一是若是通过节点的形式来添加，将导致框架外代码量过大，整个系统会呈现出一种尾大不掉的现象，二是如果修改底层代码以添加所需特性，由于原版的设计中并未考虑这些特性的添加，因此添加这些特性需要做大量底层代码的修改与测试，可能会导致整个系统的开发周期大大加长。
