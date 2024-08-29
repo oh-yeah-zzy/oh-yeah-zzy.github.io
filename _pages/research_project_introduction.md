@@ -80,7 +80,25 @@ OCS的全称为observation control system/ observatory control system，两个�
 
 由于空间碎片观测项目的特殊性，将与老师讨论后决定如何撰写该项目的描述。（该项目为g哥重点毕业项目，但是g哥的毕业论文目前我在知网上还搜不到，故此不是很敢写）
 
-### WFST望远镜观测控制系统
+### WFST望远镜OCS
+
+WFST望远镜是由中国科学技术大学与紫金山天文台共建的大视场巡天望远镜。其具备2.5m的主镜口径与3°的大视场，并具备多波段观测能力。其坐落于中国青海的冷湖台址，该台址气象条件良好，具备清晰良好的光度与视宁度条件，同时具有稳定的地面空气环境，是地球表面少数的几个高质量天文站点之一。
+
+WFST望远镜本体具备2.5m的口径与3度的大视场，其科学成像部分使用了9片9k x 9k的传感器进行拼接，共计约700 million像素，同时，其主镜具备主动光学校正技术，能够有效改善像质，这也使得WFST具备非常强大的巡天能力，其巡天能力仅次于LSST，能够与LSST形成南北半球天区的互补。
+
+该望远镜项目为实验室近几年来的主力项目，大部分同学的毕业论文与小论文均落在了该项目上，实验室主要参与了WFST望远镜的主焦相机与OCS部分的建设。
+
+WFST OCS的主要目标是：
+
+> The observatory control system (OCS) of WFST is structured based on the RACS2 framework, which is a low-level framework developed by our laboratory for the development of distributed control systems. It features decentralization and automatic component discovery. In this framework, components exist as nodes on a LAN message bus and communicate through the message bus. Additionally, the framework provides Python bindings, enabling users to rapidly develop components using Python.
+> During the observation period, the control of equipment requires accuracy, real-time, efficiency and safety. Therefore, we design and implement the OCS (observatory control system) of WFST which performs multi-layer abstraction on each hardware device and puts more attention on the operation of the observation process and the scheduling of observation tasks.
+
+在该项目中，实验室的OCS完成了从观测控制系统阶段到台站控制系统阶段的跃迁，目前该项目正在台站控制系统的路上逐步地向前推进。不可否认的是，在推进的过程中，我们遇到了非常多的困难，在这里将部分困难罗列如下，或许我们能在不久的将来解决掉他们：
+
+1. 底层框架的不足，在过去相当长的一段时间中，实验室所使用的分布式开发框架为RACS2框架，但是该框架在设计之初未能考虑到台站控制系统的需求，导致如果此时如果需要将所需特性添加到系统中会面临两方面的问题，一是若是通过节点的形式来添加，将导致框架外代码量过大，整个系统会呈现出一种尾大不掉的现象，二是如果修改底层代码以添加所需特性，由于原版的设计中并未考虑这些特性的添加，因此添加这些特性需要做大量底层代码的修改与测试，可能会导致整个系统的开发周期大大加长。
+2. 整体系统的复杂性，前面提到了我们期望在系统中加入一些新特性，但是这些新特性由于底层框架的已有现状导致难以添加，而这些新特性的需求整体来讲是由于系统的复杂性导致的，由于台站设备的数量之众，观测时所需考虑的因素之多，台站设备权限的调度之困难，因此综合导致该OCS十分复杂。
+
+需要强调的是，对于刚进入实验室的同学来说，该项目并不能说得上是一个非常好的练手项目，其设备与一般的望远镜系统不完全相同——许多设备与控制方式是WFST望远镜独有的，在一般的望远镜系统上并不具备，例如主动光学技术等等，为了能够使得望远镜达到国际先进水平，与主动光学技术类似的设计在WFST望远镜上还有许多
 
 ## 相机项目介绍 {#camera_research_project}
 
