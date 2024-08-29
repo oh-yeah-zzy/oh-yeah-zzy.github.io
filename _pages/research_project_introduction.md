@@ -121,6 +121,7 @@ WFST OCS的主要目标是：
 
     c哥：哈哈哈哈哈哈哈哈哈。
 
+    笔者注：“狗哥：‘主要你不在我的地盘上上厕所我们就是好朋友’”
 <div style="text-align: center;">
 
 <img src="/images/king_in_station.jpg" alt="台站的王" width="50%">
