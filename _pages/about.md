@@ -2,10 +2,12 @@
 permalink: /
 title: "朱泽宇个人主页"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+
+{% include geek/terminal-hero.html %}
 
 **临时注释：笔者还在猛猛码字，但是听说已经有师弟师妹闻着味来了，所以不要急不要急，你们知道的，我还在苦逼地整理以前的工作日志。**
 
@@ -39,8 +41,8 @@ redirect_from:
 
 更详细的方向与项目介绍欢迎点击follow link:
 
-+ [OCS研发方向介绍](./research_direction_introduction.md#ocs_research_direction)：此链接所指向的页面主要介绍笔者所参与过的OCS的研发方向，该介绍从整体内容出发，介绍OCS研发过程中所遇到的那些研究方向，OCS研发与这些研究方向的关系以及在这些方向中所遇到的一些内容。
-+ [OCS研发项目介绍](./research_project_introduction.md#ocs_research_project)：此链接所指向的页面主要介绍笔者所参与过的OCS研发相关的项目，该介绍将主要介绍各OCS项目的具体内容，研发目标，研发时遇到的一些痛点以及目前所采用的解决方案，拟采用但未采用的解决方案。
++ [OCS研发方向介绍](/research_content/#ocs_research_direction)：此链接所指向的页面主要介绍笔者所参与过的OCS的研发方向，该介绍从整体内容出发，介绍OCS研发过程中所遇到的那些研究方向，OCS研发与这些研究方向的关系以及在这些方向中所遇到的一些内容。
++ [OCS研发项目介绍](/research_project/#ocs_research_project)：此链接所指向的页面主要介绍笔者所参与过的OCS研发相关的项目，该介绍将主要介绍各OCS项目的具体内容，研发目标，研发时遇到的一些痛点以及目前所采用的解决方案，拟采用但未采用的解决方案。
 
 ### 相机研发
 
@@ -50,5 +52,5 @@ redirect_from:
 
 更详细的方向与项目介绍欢迎点击follow link:
 
-+ [相机研发软件方向介绍](./research_direction_introduction.md#camera_research_direction)：此链接所指向的页面主要介绍笔者所参与过的相机相关软件的研发方向，该介绍从整体内容出发，介绍各个方向的技术栈，一些研究内容以及项目中所遇到的一些有意思的内容。
-+ [相机研发项目介绍](./research_project_introduction.md#camera_research_project)：此链接所指向的页面主要介绍笔者所参与过得相机研发相关的项目，该介绍从各个项目出发，介绍笔者所参加过的各个项目、项目中的主要研究内容、项目时遇到的一些痛点、以及这些痛点目前的解决方式/潜在但未采用的解决方式。
++ [相机研发软件方向介绍](/research_content/#camera_research_direction)：此链接所指向的页面主要介绍笔者所参与过的相机相关软件的研发方向，该介绍从整体内容出发，介绍各个方向的技术栈，一些研究内容以及项目中所遇到的一些有意思的内容。
++ [相机研发项目介绍](/research_project/#camera_research_project)：此链接所指向的页面主要介绍笔者所参与过得相机研发相关的项目，该介绍从各个项目出发，介绍笔者所参加过的各个项目、项目中的主要研究内容、项目时遇到的一些痛点、以及这些痛点目前的解决方式/潜在但未采用的解决方式。

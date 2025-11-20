@@ -1,3 +1,32 @@
 <!-- start custom footer snippets -->
 <a href="/sitemap/">Sitemap</a>
 <!-- end custom footer snippets -->
+
+<!-- 极客风主题 - 终端打字动画 -->
+<script>
+(function() {
+  // 终端打字动画
+  const terminalTyping = document.getElementById('terminal-typing');
+  const terminalCursor = document.getElementById('terminal-cursor');
+
+  if (terminalTyping) {
+    const text = ' 天文台控制系统 · 科研机相机 · 代码与星空';
+    let index = 0;
+    const typingSpeed = 80; // 每个字符的打字速度（毫秒）
+
+    function typeText() {
+      if (index < text.length) {
+        terminalTyping.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeText, typingSpeed);
+      } else {
+        // 打字完成后，保持光标闪烁
+        terminalCursor.style.display = 'inline-block';
+      }
+    }
+
+    // 页面加载后延迟 500ms 开始打字
+    setTimeout(typeText, 500);
+  }
+})();
+</script>

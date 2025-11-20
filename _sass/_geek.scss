@@ -1,0 +1,412 @@
+/* ==========================================================================
+   极客风主题样式覆盖
+   ========================================================================== */
+
+/* 全局深色主题
+   ========================================================================== */
+
+body {
+  background-color: #0d1117 !important;
+  color: #c9d1d9 !important;
+}
+
+/* 链接样式
+   ========================================================================== */
+
+a {
+  color: #64ffda !important;
+
+  &:hover {
+    color: #37e6c5 !important;
+  }
+
+  &:visited {
+    color: #64ffda !important;
+  }
+}
+
+/* 页面容器和卡片
+   ========================================================================== */
+
+.page,
+.archive,
+.layout--single,
+.layout--archive {
+  background-color: #0b0e14 !important;
+  border: 1px solid #1f2630 !important;
+  box-shadow: none !important;
+}
+
+.page__content,
+.archive__item-body {
+  color: #c9d1d9 !important;
+}
+
+/* 侧边栏
+   ========================================================================== */
+
+.sidebar {
+  background-color: #0b0e14 !important;
+  border: 1px solid #1f2630 !important;
+}
+
+.author__avatar img {
+  border: 2px solid #64ffda !important;
+}
+
+.author__name {
+  color: #64ffda !important;
+}
+
+.author__bio {
+  color: #8b949e !important;
+}
+
+.author__urls {
+  a {
+    color: #c9d1d9 !important;
+
+    &:hover {
+      color: #64ffda !important;
+    }
+  }
+}
+
+/* 导航栏 - 等宽字体
+   ========================================================================== */
+
+.greedy-nav {
+  background-color: #0b0e14 !important;
+  border-bottom: 1px solid #1f2630 !important;
+
+  a {
+    color: #c9d1d9 !important;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
+
+    &:hover {
+      color: #64ffda !important;
+      background-color: #1f2630 !important;
+    }
+  }
+
+  .visible-links a::before {
+    background-color: #64ffda !important;
+  }
+}
+
+.masthead {
+  background-color: #0b0e14 !important;
+  border-bottom: 1px solid #1f2630 !important;
+}
+
+.site-title {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
+}
+
+/* 标题 - 等宽字体
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #c9d1d9 !important;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
+}
+
+.page__title {
+  color: #64ffda !important;
+}
+
+/* 代码块样式
+   ========================================================================== */
+
+code,
+pre,
+.highlighter-rouge,
+.highlight {
+  background-color: #0f1419 !important;
+  border: 1px solid #1f2630 !important;
+  color: #c9d1d9 !important;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
+}
+
+div.highlighter-rouge,
+figure.highlight {
+  background-color: #0f1419 !important;
+  border: 1px solid #1f2630 !important;
+}
+
+.highlight pre {
+  background-color: #0f1419 !important;
+}
+
+pre.highlight {
+  background-color: #0f1419 !important;
+}
+
+code.highlighter-rouge {
+  background-color: #1f2630 !important;
+  color: #64ffda !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 3px !important;
+}
+
+/* 代码高亮颜色（暗色主题）
+   ========================================================================== */
+
+.highlight {
+  .c, .c1, .cm, .cp, .cs { color: #8b949e; } /* 注释 */
+  .k, .kc, .kd, .kn, .kp, .kr, .kt { color: #ff7b72; } /* 关键字 */
+  .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .nl, .nn, .nt, .nv { color: #ffa657; } /* 名称 */
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx { color: #a5d6ff; } /* 字符串 */
+  .m, .mf, .mh, .mi, .mo, .il { color: #79c0ff; } /* 数字 */
+  .o, .ow { color: #ff7b72; } /* 操作符 */
+  .p { color: #c9d1d9; } /* 标点 */
+}
+
+/* 页脚
+   ========================================================================== */
+
+.page__footer {
+  background-color: #0b0e14 !important;
+  border-top: 1px solid #1f2630 !important;
+  color: #8b949e !important;
+
+  a {
+    color: #64ffda !important;
+  }
+}
+
+/* 按钮
+   ========================================================================== */
+
+.btn {
+  background-color: #1f2630 !important;
+  border: 1px solid #64ffda !important;
+  color: #64ffda !important;
+
+  &:hover {
+    background-color: #64ffda !important;
+    color: #0d1117 !important;
+  }
+}
+
+/* 表格
+   ========================================================================== */
+
+table {
+  background-color: #0b0e14 !important;
+  border: 1px solid #1f2630 !important;
+
+  th, td {
+    border: 1px solid #1f2630 !important;
+    color: #c9d1d9 !important;
+  }
+
+  th {
+    background-color: #1f2630 !important;
+    color: #64ffda !important;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
+  }
+}
+
+/* 引用块
+   ========================================================================== */
+
+blockquote {
+  border-left: 4px solid #64ffda !important;
+  background-color: #0f1419 !important;
+  color: #8b949e !important;
+}
+
+/* 水平线
+   ========================================================================== */
+
+hr {
+  border-top: 1px dashed #1f2630 !important;
+}
+
+/* 归档项目
+   ========================================================================== */
+
+.archive__item {
+  background-color: #0b0e14 !important;
+  border: 1px solid #1f2630 !important;
+
+  &:hover {
+    border-color: #64ffda !important;
+  }
+}
+
+.archive__item-title {
+  color: #c9d1d9 !important;
+
+  a {
+    color: #64ffda !important;
+  }
+}
+
+.archive__item-excerpt {
+  color: #8b949e !important;
+}
+
+/* 分页
+   ========================================================================== */
+
+.pagination {
+  border-top: 1px solid #1f2630 !important;
+
+  a,
+  span {
+    color: #c9d1d9 !important;
+    background-color: #0b0e14 !important;
+    border: 1px solid #1f2630 !important;
+
+    &:hover {
+      background-color: #1f2630 !important;
+      border-color: #64ffda !important;
+    }
+  }
+
+  .current {
+    background-color: #64ffda !important;
+    color: #0d1117 !important;
+    border-color: #64ffda !important;
+  }
+}
+
+/* TOC (目录)
+   ========================================================================== */
+
+.toc {
+  background-color: #0f1419 !important;
+  border: 1px solid #1f2630 !important;
+
+  .nav__title {
+    background-color: #1f2630 !important;
+    color: #64ffda !important;
+  }
+
+  a {
+    color: #c9d1d9 !important;
+
+    &:hover {
+      color: #64ffda !important;
+    }
+  }
+}
+
+/* Notice 提示框
+   ========================================================================== */
+
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  background-color: #0f1419 !important;
+  border: 1px solid #1f2630 !important;
+  color: #c9d1d9 !important;
+}
+
+/* 输入框和表单
+   ========================================================================== */
+
+input,
+textarea,
+select {
+  background-color: #0f1419 !important;
+  border: 1px solid #1f2630 !important;
+  color: #c9d1d9 !important;
+
+  &:focus {
+    border-color: #64ffda !important;
+  }
+}
+
+/* 终端 Hero 样式
+   ========================================================================== */
+
+.terminal-hero {
+  background-color: #0b0e14;
+  border: 1px solid #1f2630;
+  border-radius: 6px;
+  margin: 2em 0;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.terminal-header {
+  background-color: #1f2630;
+  padding: 0.5em 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.terminal-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.terminal-button.red {
+  background-color: #ff5f56;
+}
+
+.terminal-button.yellow {
+  background-color: #ffbd2e;
+}
+
+.terminal-button.green {
+  background-color: #27c93f;
+}
+
+.terminal-body {
+  padding: 1.5em;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 1em;
+  line-height: 1.6;
+  color: #c9d1d9;
+}
+
+.terminal-prompt {
+  color: #64ffda;
+  font-weight: 600;
+}
+
+.terminal-text {
+  color: #c9d1d9;
+}
+
+.terminal-cursor {
+  display: inline-block;
+  width: 0.6em;
+  height: 1.2em;
+  background-color: #64ffda;
+  margin-left: 0.1em;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  50.01%, 100% {
+    opacity: 0;
+  }
+}
+
+/* 响应式调整
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .terminal-hero {
+    margin: 1em 0;
+  }
+
+  .terminal-body {
+    padding: 1em;
+    font-size: 0.9em;
+  }
+}
