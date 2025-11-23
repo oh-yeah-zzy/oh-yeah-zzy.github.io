@@ -10,3 +10,28 @@
     <span class="terminal-cursor" id="terminal-cursor"></span>
   </div>
 </div>
+
+<script>
+// 终端打字动画 - 直接在组件后执行
+(function() {
+  var terminalTyping = document.getElementById('terminal-typing');
+  var terminalCursor = document.getElementById('terminal-cursor');
+
+  if (terminalTyping && terminalCursor) {
+    var text = ' 天文台控制系统 · 科研机相机 · 代码与星空';
+    var index = 0;
+    var typingSpeed = 80;
+
+    function typeText() {
+      if (index < text.length) {
+        terminalTyping.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeText, typingSpeed);
+      }
+    }
+
+    // 延迟 500ms 开始打字
+    setTimeout(typeText, 500);
+  }
+})();
+</script>
