@@ -97,3 +97,44 @@ $(document).ready(function(){
   });
 
 });
+
+/* ==========================================================================
+   Terminal Typing Animation
+   ========================================================================== */
+
+(function() {
+  // 使用纯 JavaScript，不依赖 jQuery，确保最大兼容性
+  function initTerminalTyping() {
+    var terminalText = document.getElementById('terminal-typing-text');
+    if (!terminalText) return;
+
+    var text = ' 天文台控制系统 · 科研机相机 · 代码与星空';
+    var index = 0;
+    var speed = 80; // 打字速度（毫秒）
+    var cursor = document.getElementById('terminal-cursor');
+
+    // 隐藏光标直到打字开始
+    if (cursor) cursor.style.display = 'none';
+
+    function typeWriter() {
+      if (index < text.length) {
+        terminalText.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, speed);
+      } else {
+        // 打字完成后显示光标
+        if (cursor) cursor.style.display = 'inline-block';
+      }
+    }
+
+    // 延迟500ms后开始打字
+    setTimeout(typeWriter, 500);
+  }
+
+  // 确保 DOM 完全加载后执行
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTerminalTyping);
+  } else {
+    initTerminalTyping();
+  }
+})();
