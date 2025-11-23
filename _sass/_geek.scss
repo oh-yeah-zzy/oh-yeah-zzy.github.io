@@ -377,7 +377,8 @@ select {
 
 .terminal-text {
   display: inline;
-  color: inherit; // 继承 terminal-body 的颜色
+  color: #64ffda; // 与 terminal-prompt 相同的青色
+  font-weight: 600; // 与 terminal-prompt 相同的加粗
 }
 
 .terminal-cursor {
