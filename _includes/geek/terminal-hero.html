@@ -6,28 +6,6 @@
   </div>
   <div class="terminal-body">
     <span class="terminal-prompt">zzy@ustc:~$</span>
-    <span class="terminal-text" id="terminal-typing"></span>
-    <span class="terminal-cursor" id="terminal-cursor"></span>
+    <span class="terminal-text terminal-typing-animation"> 天文台控制系统 · 科研机相机 · 代码与星空</span>
   </div>
 </div>
-
-<script type="text/javascript">
-// 终端打字动画
-window.addEventListener('load', function() {
-  var elem = document.getElementById('terminal-typing');
-  if (!elem) return;
-
-  var text = ' 天文台控制系统 · 科研机相机 · 代码与星空';
-  var i = 0;
-
-  function type() {
-    if (i < text.length) {
-      elem.innerHTML += text.charAt(i);
-      i++;
-      setTimeout(type, 80);
-    }
-  }
-
-  setTimeout(type, 500);
-});
-</script>

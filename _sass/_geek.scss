@@ -379,13 +379,32 @@ select {
   color: #c9d1d9;
 }
 
-.terminal-cursor {
+.terminal-typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 3.5s steps(22) 0.5s forwards;
+}
+
+.terminal-typing-animation::after {
+  content: '';
   display: inline-block;
   width: 0.6em;
   height: 1.2em;
   background-color: #64ffda;
   margin-left: 0.1em;
+  vertical-align: middle;
   animation: blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink {
@@ -395,6 +414,15 @@ select {
   50.01%, 100% {
     opacity: 0;
   }
+}
+
+.terminal-cursor {
+  display: inline-block;
+  width: 0.6em;
+  height: 1.2em;
+  background-color: #64ffda;
+  margin-left: 0.1em;
+  animation: blink 1s step-end infinite;
 }
 
 /* 响应式调整
