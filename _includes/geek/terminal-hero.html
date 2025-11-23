@@ -11,50 +11,23 @@
   </div>
 </div>
 
-<script>
-// 终端打字动画 - 带调试日志
-(function() {
-  console.log('[Terminal] Script loading...');
+<script type="text/javascript">
+// 终端打字动画
+window.addEventListener('load', function() {
+  var elem = document.getElementById('terminal-typing');
+  if (!elem) return;
 
-  var terminalTyping = document.getElementById('terminal-typing');
-  var terminalCursor = document.getElementById('terminal-cursor');
+  var text = ' 天文台控制系统 · 科研机相机 · 代码与星空';
+  var i = 0;
 
-  console.log('[Terminal] terminalTyping element:', terminalTyping);
-  console.log('[Terminal] terminalCursor element:', terminalCursor);
-
-  if (terminalTyping && terminalCursor) {
-    console.log('[Terminal] Both elements found, initializing animation');
-
-    var text = ' 天文台控制系统 · 科研机相机 · 代码与星空';
-    var index = 0;
-    var typingSpeed = 80;
-
-    console.log('[Terminal] Text to type:', text);
-    console.log('[Terminal] Text length:', text.length);
-
-    function typeText() {
-      console.log('[Terminal] typeText called, index:', index, 'char:', text.charAt(index));
-
-      if (index < text.length) {
-        terminalTyping.textContent += text.charAt(index);
-        console.log('[Terminal] Current content:', terminalTyping.textContent);
-        index++;
-        setTimeout(typeText, typingSpeed);
-      } else {
-        console.log('[Terminal] Animation complete');
-      }
+  function type() {
+    if (i < text.length) {
+      elem.innerHTML += text.charAt(i);
+      i++;
+      setTimeout(type, 80);
     }
-
-    // 延迟 500ms 开始打字
-    console.log('[Terminal] Starting animation in 500ms');
-    setTimeout(function() {
-      console.log('[Terminal] Timeout fired, calling typeText');
-      typeText();
-    }, 500);
-  } else {
-    console.error('[Terminal] Elements not found!');
-    if (!terminalTyping) console.error('[Terminal] Missing: terminal-typing');
-    if (!terminalCursor) console.error('[Terminal] Missing: terminal-cursor');
   }
-})();
+
+  setTimeout(type, 500);
+});
 </script>
