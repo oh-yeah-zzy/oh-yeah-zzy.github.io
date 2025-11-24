@@ -108,7 +108,7 @@ $(document).ready(function(){
     var terminalText = document.getElementById('terminal-typing-text');
     if (!terminalText) return;
 
-    var text = ' 天文台控制系统 · 科研机相机 · 代码与星空';
+    var text = ' 天文台控制系统 · 科研级相机 · 代码与星空';
     var index = 0;
     var speed = 80; // 打字速度（毫秒）
     var cursor = document.getElementById('terminal-cursor');
