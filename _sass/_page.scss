@@ -240,6 +240,12 @@
   }
 }
 
+.page__meta:empty {
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+}
+
 .page__meta-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
