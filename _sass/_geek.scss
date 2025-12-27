@@ -50,8 +50,12 @@ a {
   border: 1px solid #1f2630 !important;
 }
 
-.author__avatar img {
-  border: 2px solid #64ffda !important;
+.author__avatar {
+  text-align: center !important;
+
+  img {
+    border: 2px solid #64ffda !important;
+  }
 }
 
 .author__name {
